@@ -1,0 +1,6 @@
+{
+  "name": "Order Dimsum & Ayam Keju Pekalongan",
+  "description": "Form pemesanan Dimsum Goreng & Ayam Keju Pekalongan praktis via WhatsApp untuk TikTok & Instagram",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
