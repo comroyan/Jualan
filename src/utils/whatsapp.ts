@@ -98,7 +98,7 @@ ${lokasiSection}
 Catatan Tambahan:
 ${catatanSection}
 
-Mohon konfirmasi dan rekap pesanan saya ya Kak. Terima kasih!`;
+Mohon konfirmasi dan rekap pesanan saya ya Kak (siap verifikasi pesanan valid). Terima kasih!`;
 
   return message;
 };

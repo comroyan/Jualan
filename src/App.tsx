@@ -564,6 +564,14 @@ export default function App() {
               <div>Lokasi: {location ? 'GPS Terlampir 📍' : 'Alamat Manual'}</div>
             </div>
 
+            {/* Anti Fake Order Reminder in Modal */}
+            <div className="p-3 rounded-2xl bg-amber-50 border border-amber-200 text-amber-900 text-[11px] text-left">
+              <span className="font-bold text-[#78350F] block">🛡️ Langkah Wajib Konfirmasi:</span>
+              <p className="text-[#8D6E63] text-[10.5px] mt-0.5 leading-snug">
+                Silakan langsung kirim pesan di WhatsApp. Admin akan memverifikasi nomor & detail pesanan Anda sebelum mulai dimasak (Mencegah Order Fiktif).
+              </p>
+            </div>
+
             <div className="space-y-2 pt-2">
               {lastOrderWaUrl && (
                 <a

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User, Phone, CheckCircle2, AlertCircle, Truck, Banknote, Store, CreditCard, Copy, Check } from 'lucide-react';
+import { User, Phone, CheckCircle2, AlertCircle, Truck, Banknote, Store, CreditCard, Copy, Check, ShieldCheck } from 'lucide-react';
 import { CustomerInfo, DeliveryMethod, PaymentMethod } from '../types';
 import { formatRupiah } from '../utils/whatsapp';
 
@@ -223,6 +223,17 @@ export const CustomerForm: React.FC<CustomerFormProps> = ({ customer, shippingFe
               </p>
             </div>
           )}
+
+          {/* Anti Fake-Order Notice Badge */}
+          <div className="mt-3 p-3 rounded-2xl bg-amber-50 border border-amber-200 text-amber-900 text-[11px] flex items-start gap-2">
+            <ShieldCheck className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
+            <div>
+              <span className="font-extrabold text-[#78350F] block">🛡️ Kebijakan Garansi Pesanan Asli (Anti-Fake Order):</span>
+              <p className="text-[#8D6E63] text-[10.5px] leading-tight mt-0.5">
+                Admin akan memverifikasi orderan via WhatsApp sebelum bahan dimasak & dikirim. Mohon pastikan Nomor WhatsApp Anda aktif!
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

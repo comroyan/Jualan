@@ -50,5 +50,7 @@ export interface StoreConfig {
   enableQuotaLimit?: boolean; // Enable max quota cap
   maxQuota?: number;    // e.g. 50 porsi total quota
   soldQuota?: number;   // e.g. 18 porsi already ordered
+  requireDp?: boolean;  // Anti fake-order / DP requirement toggle
+  dpNote?: string;       // Custom notice for DP / transfer confirmation
 }
 

@@ -16,6 +16,8 @@ export const DEFAULT_STORE_CONFIG: StoreConfig = {
   enableQuotaLimit: true,
   maxQuota: 50,
   soldQuota: 18,
+  requireDp: true,
+  dpNote: "Wajib konfirmasi via WA & kirim bukti DP/Transfer agar pesanan resmi masuk daftar produksi (Anti Fake Order).",
 };
 
 export const DEFAULT_PRODUCTS: Product[] = [
